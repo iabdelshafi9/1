@@ -28,7 +28,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
      <body
-  className="min-h-screen flex flex-col bg-black"
+ className="min-h-screen flex flex-col bg-transparent"
   style={{
     backgroundImage: "url('/Demon%E2%80%99s%20Throne_%20Crimson%20Shadow%20Crew%20(1).png')",
     backgroundSize: "cover",
