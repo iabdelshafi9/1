@@ -29,6 +29,7 @@ export default function RootLayout({
     >
       
 
+
 <body
   className="min-h-screen flex flex-col"
   style={{
@@ -37,17 +38,11 @@ export default function RootLayout({
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     backgroundAttachment: "fixed",
-    backgroundColor: "#000000",
   }}
 >
   {children}
 </body>
 
-  
-  {children}
-</body>
-  {children}
-</body>
     </html>
   );
 }
