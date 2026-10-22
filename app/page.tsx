@@ -22,11 +22,15 @@ export default function Home() {
   const [section, setSection] = useState("home");
   const [sent, setSent] = useState(false);
 
-  const nav = [
-    ["home", "الرئيسية"],
-    ["members", "الأفراد والرتب"],
-    ["creators", "صناع المحتوى"],
-    ["apply", "التقديمات"],
+ 
+const nav = [
+  ["home", "الرئيسية"],
+  ["members", "الأفراد والرتب"],
+  ["creators", "صناع المحتوى"],
+  ["tasks", "التاسكات"],
+  ["apply", "التقديمات"],
+];
+
   ];
 
   return (
