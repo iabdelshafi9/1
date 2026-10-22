@@ -27,16 +27,18 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-     <body
- className="min-h-screen flex flex-col bg-transparent"
+<body
+  className="min-h-screen flex flex-col"
   style={{
-  backgroundImage: "url('/background.png')",
-backgroundSize: "cover",
-backgroundPosition: "center",
-backgroundRepeat: "no-repeat",
-backgroundAttachment: "fixed",
+    backgroundImage: "url('/background.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundAttachment: "fixed",
   }}
 >
+  {children}
+</body>
   {children}
 </body>
     </html>
