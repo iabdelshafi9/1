@@ -93,7 +93,7 @@ export default function Home() {
           <p className="mb-8 text-zinc-400">
             قيادة وأفراد عيلة DEMON'S
           </p>
-          <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {members.map((member, i) => (
               <article
                 key={i}
