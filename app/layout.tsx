@@ -30,11 +30,11 @@ export default function RootLayout({
      <body
  className="min-h-screen flex flex-col bg-transparent"
   style={{
-    backgroundImage: "url('/Demon%E2%80%99s%20Throne_%20Crimson%20Shadow%20Crew%20(1).png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-    backgroundAttachment: "fixed",
+  backgroundImage: "url('/Demon%...png')",
+backgroundSize: "cover",
+backgroundPosition: "center",
+backgroundRepeat: "no-repeat",
+backgroundAttachment: "fixed",
   }}
 >
   {children}
