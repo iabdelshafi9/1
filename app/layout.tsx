@@ -30,7 +30,7 @@ export default function RootLayout({
      <body
  className="min-h-screen flex flex-col bg-transparent"
   style={{
-  backgroundImage: "url('/Demon%...png')",
+  backgroundImage: "url('/dem.pnj')",
 backgroundSize: "cover",
 backgroundPosition: "center",
 backgroundRepeat: "no-repeat",
