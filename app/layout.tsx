@@ -27,7 +27,18 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+     <body
+  className="min-h-screen flex flex-col bg-black"
+  style={{
+    backgroundImage: "url('/Demon%E2%80%99s%20Throne_%20Crimson%20Shadow%20Crew%20(1).png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    backgroundAttachment: "fixed",
+  }}
+>
+  {children}
+</body>
     </html>
   );
 }
