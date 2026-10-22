@@ -4,10 +4,12 @@
 import { useState } from "react";
 
 const members = [
-  { name: "𝐈𝐛𝐫𝐚𝐡𝐢𝐦 𝐀𝐛𝐝𝐞𝐥𝐡𝐚𝐦𝐞𝐞𝐝", rank: "Boss" },
-  { name: "𝐉𝐨𝐬𝐞𝐩𝐡", rank: "Co-Boss" },
-  { name: "𝐋𝐚𝐲𝐥𝐚 𝐂𝐡𝐚𝐢𝐛𝐢", "𝐋𝐢𝐧𝐜𝐨𝐥𝐧", rank: "High Command" },
-  { name: "𝐀𝐛𝐝𝐨","𝐌𝐮𝐬𝐭𝐚𝐟𝐚","𝐌𝐮𝐬𝐭𝐚𝐟𝐚", rank: "Member" },
+  { name: "Ibrahim Abdelhameed", rank: "Boss" },
+  { name: "Joseph", rank: "Co-Boss" },
+  { name: "Layla Chaibi", rank: "High Command" },
+ { name: "Abdo", rank: "Member" },
+{ name: "Mustafa", rank: "Member" },
+{ name: "Mustafa", rank: "Member" },
 ];
 
 const creators = [
